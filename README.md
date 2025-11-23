@@ -62,7 +62,7 @@ arr2
 ---
 
 
-## Bifurcated Sort Demo
+## Bifurcated Sort
 
 
 https://github.com/user-attachments/assets/f1f1f229-28d2-4216-b46a-09800d637bae
