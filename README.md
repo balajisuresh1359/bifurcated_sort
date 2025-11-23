@@ -64,7 +64,10 @@ arr2
 
 ## Bifurcated Sort Demo
 
-[![Watch the demo](https://balajisuresh1359/bifurcated_sort/images/bifurcated_insertion_sort.jpeg)](https://github.com/balajisuresh1359/bifurcated_sort/blob/main/videos/bifurcated_insertion_sort.mp4)
+
+https://github.com/user-attachments/assets/f1f1f229-28d2-4216-b46a-09800d637bae
+
+
 
 ## License
 
