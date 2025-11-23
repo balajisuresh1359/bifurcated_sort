@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "bifurcated_sort"
-version = "0.2.0"
+version = "0.2.1"
 description = "A hybrid bifurcated sorting algorithm using ascending and descending linked lists with BST-accelerated insertion"
 authors = [
   { name = "Balaji", email = "balajisuresh1359@gmail.com" }
@@ -28,7 +28,7 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://balajisuresh1359.github.io/balaji-area/code/bifurcated_insertion_sort.html"
-Documentation = "https://balajisuresh1359.github.io/balaji-area/code/bifurcated_insertion_sort.html"
+Documentation = "https://github.com/balajisuresh1359/bifurcated_sort/wiki"
 Repository = "https://github.com/balajisuresh1359/bifurcated_sort"
 Issues = "https://github.com/balajisuresh1359/bifurcated_sort/issues"
 

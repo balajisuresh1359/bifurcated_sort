@@ -18,23 +18,25 @@ pip install bifurcated_sort
 ```python
 from bifurcated_sort import bfc_sort, bfc_sorted
 
+# In-place sorting
 arr = [15, 3, 8, 1, 12, 6]
 bfc_sort(arr)
-
 print(arr)
 # Output: [1, 3, 6, 8, 12, 15]
 
+# Return a new reversed sorted list (does not modify the original)
 result = bfc_sort([5, 2, 8], inplace=False, reverse=True)
 result
-# Output:  [8, 5, 2]
+# Output: [8, 5, 2]
 
+# Using bfc_sorted (always returns a new list)
 arr2 = [2, 1, 32]
-result = bfc_sorted(arr)
+result = bfc_sorted(arr2)
 result
-# Output:  [1, 2, 32] #  inplace false by default
+# Output: [1, 2, 32]   # inplace=False by default
 
 arr2
-# Output:  [2, 1, 32]
+# Output: [2, 1, 32]   # original list remains unchanged
 ```
 
 ---
