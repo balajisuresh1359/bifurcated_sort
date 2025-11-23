@@ -11,16 +11,21 @@ class LinkedList:
         self.find_smaller = False
         self.compare = lambda x, y: x >= y
         self.iterator_function = self.__iter_from_head__
+        self.reverse_iterator_function = self.__iter_from_tail__
     else:
         self.find_smaller = True
         self.compare = lambda x, y: x <= y
         self.iterator_function = self.__iter_from_tail__
+        self.reverse_iterator_function = self.__iter_from_head__
 
   def __len__(self):
     return self.length
   
   def __iter__(self):
       return self.iterator_function()
+  
+  def __reversed__(self): 
+      return self.reverse_iterator_function()
 
   def __iter_from_head__(self):
       current = self.head

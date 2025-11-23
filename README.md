@@ -16,13 +16,25 @@ pip install bifurcated_sort
 
 ## Example Usage
 ```python
-from bifurcated_sort import bfc_sort
+from bifurcated_sort import bfc_sort, bfc_sorted
 
 arr = [15, 3, 8, 1, 12, 6]
 bfc_sort(arr)
 
 print(arr)
 # Output: [1, 3, 6, 8, 12, 15]
+
+result = bfc_sort([5, 2, 8], inplace=False, reverse=True)
+result
+# Output:  [8, 5, 2]
+
+arr2 = [2, 1, 32]
+result = bfc_sorted(arr)
+result
+# Output:  [1, 2, 32] #  inplace false by default
+
+arr2
+# Output:  [2, 1, 32]
 ```
 
 ---

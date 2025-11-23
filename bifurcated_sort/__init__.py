@@ -1,3 +1,4 @@
-from .sorter import bfc_sort
-__all__ = ["bfc_sort"]
-__version__ = "0.1.0"
+from .sorter import bfc_sort, bfc_sorted
+
+__version__ = "0.2.0"
+__all__ = ["bfc_sort", "bfc_sorted"]
