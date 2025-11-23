@@ -61,6 +61,10 @@ arr2
 
 ---
 
+## Sorting Visualization
+
+[![Watch the demo](balajisuresh1359/bifurcated_sort/videos/bifurcated_insertion_sort.mp4)](https://balajisuresh1359/bifurcated_sort/videos/bifurcated_insertion_sort.mp4)
+
 ## License
 
 MIT License
